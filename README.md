@@ -2,6 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+## Instructions
+Create a "Api.js" file in the src folder.  
+Inside the file, store your NewsAPI key in the format: -  
+export const APIKEY= "your API key";
+
 ## Available Scripts
 
 In the project directory, you can run:
