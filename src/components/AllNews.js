@@ -6,7 +6,7 @@ import { useEffect } from "react";
 import Header from "./Header";
 import Navbar from "./Navbar";
 import Loader1 from "./Loader";
-import { APIKEY } from "./Api";
+import { APIKEY } from "../Api";
 function AllNews() {
   const [articles1, setarticles1] = useState([]);
   const [page, setPage] = useState(1);

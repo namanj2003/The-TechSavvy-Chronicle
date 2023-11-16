@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from "react";
 import NewsArticle from "./NewsArticle";
 import "../newsapp.css";
-import { APIKEY } from "./Api";
+import { APIKEY } from "../Api";
 
 const Search = () => {
   const [articles2, setArticles2] = useState([]);

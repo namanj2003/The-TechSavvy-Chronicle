@@ -3,8 +3,7 @@ import NewsArticle from "./NewsArticle";
 import "../newsapp.css";
 import { useState, useEffect } from "react";
 import Loader1 from "./Loader";
-import { APIKEY } from "./Api";
-
+import { APIKEY } from "../Api";
 function Trending() {
   const [articles, setarticles] = useState([]);
   const [page, setPage] = useState(1);
