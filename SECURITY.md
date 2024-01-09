@@ -5,12 +5,15 @@
 Use this section to tell people about which versions of your project are
 currently being supported with security updates.
 
+            React
 | Version | Supported          |
 | ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+| ^18.2.0 | :white_check_mark: |
+| <18.2.0 | :x:                |
+
+            mui
+| ^5.15.3 | :white_check_mark: |
+| <5.15.3 | :x:                |
 
 ## Reporting a Vulnerability
 
